@@ -29,7 +29,7 @@ function generatePassword() {
       var numeric = "0123456789"
     }
     else {
-      alert("the password must have at least one option.")
+      alert("The password must have at least one of the options.")
     }
   }
   else {
