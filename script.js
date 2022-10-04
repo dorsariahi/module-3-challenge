@@ -13,8 +13,10 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Add function to generate the password
 function generatePassword() {
   var passwordLenght = prompt("what is the lenght of the password?");
+  // Add the "if" and "else" statment
   if (passwordLenght >= 8 && passwordLenght <= 128) {
     var hasLowerCase = confirm("Do you want to include any lowercase charcters?");
     var hasUpperCase = confirm("Do you want to include any uppercase charcters?");
