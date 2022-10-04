@@ -23,7 +23,7 @@ function generatePassword() {
     if (hasLowerCase === true || hasUpperCase === true || hasSpecialCharcter === true || hasNumeric === true) {
       var lowercase = "abcdefghijklmnopqrstuvwxyz"
       var uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-      var specialcharcter = "`~!#@%^&*()-_=+{}[]\|;:'",<.>/?"
+      var specialcharcter = "!@#$%^&*()_+=-[]\{}|,./?';><"
       var numeric = "0123456789"
     }
     else {
