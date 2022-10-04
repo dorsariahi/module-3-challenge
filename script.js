@@ -33,7 +33,7 @@ function generatePassword() {
     }
   }
   else {
-    alert("the password leanght should be between 8 and 128 characters.")
+    alert("the password lenght should be at least 8 characters and no more than 128 characters.")
   }
   return "test password"
 }
