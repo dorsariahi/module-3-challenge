@@ -23,18 +23,18 @@ function generatePassword() {
   var password = "";
   var passwordlength = prompt("what is the length of the password? password must be greater than 8 and least than 128.");
   // Add the "if" and "else" statment
-  if (passwordlength < 8 ){
+  if (passwordlength < 8) {
     alert("The password must be at least 8 characters.");
     return null;
   };
-  if (passwordlength > 128 ){
+  if (passwordlength > 128) {
     alert("The password must be at least 128 characters.");
     return null;
   };
-  if(isNaN(passwordlength)){
+  if (isNaN(passwordlength)) {
     alert("password length should only be numbers.")
-  return null;
-};
+    return null;
+  };
   var hasLowerCase = confirm("Do you want to include any lowercase charcters?");
   if (hasLowerCase) {
     userpassword += lowercase
